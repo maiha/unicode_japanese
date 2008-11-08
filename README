@@ -1,0 +1,21 @@
+UnicodeJapanese
+===============
+
+Japanese charset converter especially for hankaku and zenkaku characters
+
+
+Original
+========
+
+This library is ported from CPAN : Unicode::Japanese.
+The patterns and tables are derived from
+  http://search.cpan.org/src/HIO/Unicode-Japanese-0.38/lib/Unicode/Japanese.pm
+
+
+Example
+=======
+
+  Unicode::Japanese.new("スズキ　アイリ").z2h
+  # => "ｽｽﾞｷ ｱｲﾘ"
+
+Copyright (c) 2008 maiha@wota.jp, released under the MIT license
